@@ -1,0 +1,36 @@
+HTMLFrame shows the result of a comparison computation on a set of documents. There are lots of features in an HTMLFrame.
+
+Main window area:
+
+On the left are all the interesting comparisons (ones where there was a non-zero similarity between two documents). These are listed in the form [A,B] n%. This means that document B has n% content that is "identical" (as defined by the algorithm used to compare A and B) to content in A.
+
+In the center there are two large windows. These show highlighted copies of the contents of the two documents in the current comparison (the one that is selected from the list on the left). The highlighted areas are those designated by the comparison algorithm for whatever reason (usually the cheated sections). 
+
+At the bottom there is a log panel that shows messages about what the user has selected or the window has done.
+
+
+Menus:
+
+File Menu
+* Load Comparison prompts you for a file to load a comparison from
+* Save Comparison saves the current comparison using its default name
+* Save Comparison As will prompt for a name and location to save to
+* Save Current Pair saves the currently showing two documents to an html file with a header telling how much doc2 cheated off doc1
+* Save Current Pair As will prompt for a name and location to save to
+* Save All Pairs will save all pairs from the list to html files. 
+
+Sort Menu
+* Alphabetical Sort sorts the pair entries in the left alphabetically
+* Cheat Sort sorts the pair entries in the left by cheat amount
+
+Visual Options Menu
+* Border Color changes the color of the border around the two center windows
+* Border Thickness changes the size of the border around the two center windows
+* HTML Highlight changes the color that the highlighted text is in
+* Info toggles showing the info window at the bottom
+
+For many of the Visual Options, there is a submenu "Set as Default". Select this if you want the program to remember the current settings the next time it loads (the settings are saved into the options.cfg file). 
+
+Help
+* Help displays the HelpFrame which shows all help files
+* About displays a small info screen about the authors null)

@@ -1,0 +1,5 @@
+LocalOptionTab allows you to choose a local directory whose contents will be compared. All files matching the valid filetypes (as defined by the key "filetype" in options.cfg - default is set to pdf and ps) will be converted to text and compared to each other using the specified algorithm in under the Advanced Options button. You may change this to any other type that is available (all available options are shown on the left, you can click one to highlight and select it), along with changing the other options to taste as well. Once all information is in (only the local directory needs to be specified), hit GO.
+
+There will be periodic updates to the Log as the program progresses, and eventually an HTMLFrame will pop up, showing the computed results. 
+
+In the event of a problem, an error message providing more information will appear in the Log. ar in the log window.mpare doc1 and doc2 with tolerance 5

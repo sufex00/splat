@@ -1,0 +1,51 @@
+Arizona == http://www.cs.arizona.edu/who/people/faculty.html
+Princeton == http://www.cs.princeton.edu/fac/
+Rice == http://www.cs.rice.edu/Database/faculty.shtml
+UCLA == http://www.cs.ucla.edu/csd/people/faculty.html
+Washington == http://www.cs.washington.edu/people/faculty/
+Berkeley == http://www.eecs.berkeley.edu/Faculty/Lists/CS/
+Harvard == http://www.deas.harvard.edu/faculty/viewalpha/index.html
+Carnegie Mellon == http://www.csd.cs.cmu.edu/people/faculty.html
+Illinois == http://www.cs.uiuc.edu/people/faculty/index.html
+Stanford == http://cs.stanford.edu/People/faculty.html
+Cornell == http://www.cs.cornell.edu/cucs/people/index.htm
+MIT == http://www.eecs.mit.edu/faculty/index.html
+Texas == http://www.cs.utexas.edu/home/people/prof_np.shtml
+Wisconsin == http://www.cs.wisc.edu/faculty_staff.html
+Cal Tech == http://www.cs.caltech.edu/people.html
+Maryland == http://www.cs.umd.edu/department/faculty.shtml
+Brown == http://www.cs.brown.edu/people/faculty/
+Georgia Tech == http://www.cc.gatech.edu/people/
+Michigan == https://www.eecs.umich.edu/cgi-bin/fac/facsearchshort.cgi?CSE
+Purdue == http://www.cs.purdue.edu/directory/faculty.shtml
+Yale == http://www.cs.yale.edu/people/teachingfac.html
+Columbia == http://www.cs.columbia.edu/faculty.html
+Massachusetts == http://www.cs.umass.edu/csinfo/autogen/faculty.html
+North Carolina == http://www.cs.unc.edu/People/Faculty/
+USC == http://www.cs.usc.edu/faculty/faculty_list.htm
+UC San Diego == http://www.cs.ucsd.edu/WhoAreWe/People/faculty.html
+Pennsylvania == http://www.cis.upenn.edu/faculty.html
+Washington St. Louis == http://cse.seas.wustl.edu/people-facultystaff.asp
+New York == http://www.cs.nyu.edu/csweb/People/faculty.html
+Chicago == http://www.cs.uchicago.edu/people/
+Rutgers == http://www.dcis.rutgers.edu/cs/people/
+Duke == http://www.cs.duke.edu/cspeople/faculty/
+Rochester == http://www.cs.rochester.edu/
+SUNY Stonybrook == http://www.cs.sunysb.edu/CSSite/People/Faculty.html
+UC Irvine == http://www.ics.uci.edu/people/faculty.php
+Virginia == http://www.cs.virginia.edu/people/faculty.html
+Indiana == http://www.cs.indiana.edu/People/faculty.html
+Johns Hopkins == http://www.cs.jhu.edu/people.html
+Northwestern == http://www.cs.northwestern.edu/people/faculty.html
+Ohio State == http://www.cis.ohio-state.edu/people/faculty.html
+Colorado == http://www.cs.colorado.edu/people/faculty/byname.html
+Utah == http://www.cs.utah.edu/dept/who/faculty.html
+Oregon == http://www.cse.ogi.edu/faculty-alphabetical/
+Pittsburgh == http://www.cs.pitt.edu/people/faculty.html
+Syracuse == http://www.ecs.syr.edu/directory_faculty.cfm
+Florida == http://www.cise.ufl.edu/people/faculty.shtml/
+Minnesota == http://www.cs.umn.edu/faculty/faculty.html
+UC Santa Barbara == http://www.cs.ucsb.edu/people/faculty.shtml
+Renseelar == http://www.cs.rpi.edu/people/faculty.html
+UC Santa Cruz == http://www.cs.ucsc.edu/people/faculty.html
+Test Page == http://www.u.arizona.edu/~gergelyk/splat/spider.html

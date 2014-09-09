@@ -1,0 +1,60 @@
+// Descriptions of all the options
+
+// filetypes
+filetype String: these file extensions will be downloaded from the web
+endtype String: this is final format files are converted to for comparison
+helptype String: these file extensions are assumed to be help files
+
+// HTMLPanel related things
+// edgesize - number of pixels buffer between panels
+// edgesize int: width of the border around the html 
+// default color of the buffer between panels
+// edgecolor String: 
+// true if the info box should show by default
+info boolean: true if the infobox in the results frame is showing
+// height of the info box
+infosize int[0,200]: height of the infobox in the results frame
+
+// default color of the highlight in HTML text
+htmlcolor String: the hex representation of the default highlight color
+
+// true if you want to delete temporary files on quit
+deleteonexit boolean: true if temp files should be deleted on exit
+
+// true if you want the Home Tab to be shown on startup
+showhome boolean: true if the Home tab should be shown
+homepage String: address of the homepage in the Home tab
+
+// Default Directories
+// workingdir is the working directory for splat
+workingdir String: working directory for Splat
+// helpdir is the location of all the helpfiles
+helpdir String: directory where help files are located
+
+// Converters .. to specify a conversion from endtype A to B
+// create a key "A2B" and then follow it with the command line call to make
+pdf2txt String: defines how to convert from pdf to txt
+ps2txt String: defines how to convert from ps to txt
+
+// Filecomparison algorithm default
+comparison Class[DocumentComparison]: select which Comparison algorithm is default
+tolerance int[1,100]: default tolerance level of a comparison algorithm
+// Download defaults
+websearch Class[WebSearch]: select which WebSearch is the default
+newfolder boolean: true if each starting site gets a new folder
+timeout int[0,10000]: maximum time (seconds) a websearch will run for
+maxdownloads int[1,200]: maximum files a websearch will download
+maxdepth int[1,20]: maximum depth of links a websearch will follow
+
+// Button icon source files
+gobutton String: location of the graphic for the Go Button
+helpbutton String: location of the graphic for the Help Button
+stopbutton String: location of the graphic for the Stop Button
+browserback String: location of the graphic for the Back Button
+browserforward String: location of the graphic for the Forward Button
+browserhome String: location of the graphic for the Home Button
+browserrefresh String: location of the graphic for the Refresh Button
+
+
+// Debug flag
+// debug false

@@ -1,0 +1,37 @@
+SubstringComparison looks for identical substrings shared between two documents.
+This algorithm compares doc1 and doc2 by looking at every substring s1 of length "tolerance" in doc1, and seeing if s1 exists in doc2. The documents are compared after being converted to all lowercase letters and stripped of all whitespace. NOTE: No changes are made to the original documents.
+
+Example:
+--------------------------------------------
+doc1:
+Hello, I am a document called doc1.
+
+doc2:
+Hello, I am called George. 
+My cat Fluffy says hello as well.
+--------------------------------------------
+
+Compare doc1 and doc2 with tolerance 10
+
+s1 = hello,iama // no match in doc2
+s1 = ello,iamad // no match in doc2
+s1 = llo,iamado // no match in doc2 
+.... 
+s1 = alleddoc1. // no match in doc2
+
+With tolerance 10, the algorithm concludes that the two doc1 and doc2 have no shared content.
+
+Compare doc1 and doc2 with tolerance 5
+
+s1 = hello 	// match in doc2 at char  0 (hello,iam ...  )
+		// match in doc2 at char 37 (helloaswe ...  )
+s1 = ello, 	// match in doc2 at char  1 (ello,iamc ...  )
+... 
+s1 = calle	// match in doc2 at char  9 (calledgeo ...  )
+... 
+
+With tolerance 5, the algorithm finds several parts of doc2 that are copied from doc1. These are capitalized:
+
+HELLO,IAMCALLEDgeorge.mycatfluffysaysHELLOaswell.
+
+In total, 20 chars are parts of copied text from doc1. doc2 has length 49, so this algorithm would conclude that it cheats 100*(20/49) = 40.8% from doc1.

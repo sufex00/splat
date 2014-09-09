@@ -1,0 +1,44 @@
+SentenceComparison looks for similar sentences (based on percentage of shared words) between the two documents. The tolerance determines what percent of a sentence needs to be cheated for the entire sentence to be considered a cheat. Only the sentences logged as cheats will be highlighted in the report. It is possible that sentence A cheats from sentence B, but not vice versa, for example if B is 10 words, A is 5, 4 of them are common and the tolerance is set to 50 percent.
+
+In comparing documents doc1 and doc2, the algorithm compares every sentence s2 in doc2 to every sentence in doc1. For the algorithm, a sentence is considered to be the set of words (converted to lowercase for consistency) in the original english sentence. Two sentences are similar if they share words, or in other words, if their intersection is non-empty. A sentence s2's similarity to s1 is determined by taking the size of intersection of s1 and s2, divided by the size of s2 (what fraction of the words in s2 exist in s1). s2's final similarity is assigned the highest similarity that is found. The similarity of doc1 and doc2 is computed from the average of the similarity of doc2's sentences. If the similarity of a sentence is below the tolerance level, the sentence's similarity is considered to be zero when computing the similarity of doc2 to doc1. 
+
+Example:
+-----------------------------------
+doc1:
+I am a man, yes I am. I ate a burger for lunch. I am full.
+
+doc2: 
+I see that there are problems. I hate having a burger for lunch.
+-----------------------------------
+
+Compare with tolerance = 50. 
+s2a = {i, see, that, there, are, problems}
+	s1 = {i, am, a, man, yes}  
+		1 of 5 words in s2 exists in s1 -> 20.0 similarity
+	s1 = {i, ate, a, burger, for, lunch}
+		1 of 5 words in s2 exists in s1 -> 20.0 similarity
+	s1 = {i, am, full}
+		1 of 5 words in s2 exists in s1 -> 20.0 similarity
+s2b = {i, hate, having, a, burger, for, lunch}
+	s1 = {i, am, a, man, yes}
+		2 of 7 words in s2 exists in s1 -> 28.6 similarity
+	s1 = {i, ate, a, burger, for, lunch}
+		5 of 7 words in s2 exists in s1 -> 71.4 similarity
+	s1 = {i, am, full}
+		1 of 7 words in s2 exists in s1 -> 14.3 similarity
+s2a is 20.0 similar
+s2b is 71.4 similar
+Since s2a's similarity is less than the tolerance, it is considered a zero for the overall similarity score.
+doc2 is (71.4 + 0)/2 = 35.7% similar to doc1.
+doc2 will be highlighted like:
+i see that there are problems. I HATE HAVING A BURGER FOR LUNCH.
+
+
+
+Compare with tolerance = 10.
+The comparisons between sentences are exactly the same as before
+Since both s2a and s2b's similarity is greater than tolerance, 
+doc2 is (71.4 + 20.0)/2 = 45.7% similar to doc1.
+doc2 will be highlighted like:
+I SEE THAT THERE ARE PROBLEMS. I HATE HAVING A BURGER FOR LUNCH.
+

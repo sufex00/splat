@@ -1,0 +1,26 @@
+What is Splat?
+
+Splat is a tool intended to find plagiarized papers. These papers
+can be provided by the user, or the websearch can be used to 
+download papers from the web that match given specifications. Once
+a search and comparison is completed, a new window will pop up with
+the results.
+
+
+Getting Started
+
+When splat starts up, you are given a set of tabs that run various
+combinations of searches and/or comparisons. Choose any of these. Select
+Help from the menu for more information.
+
+
+Important Notes:
+
+Before Splat can operate properly, you must set appropriate third party 
+converters in the data/options.cfg. Follow the directions given in that 
+file. The default is set to the unix ps2ascii utility which operates correctly
+in some cases, but has been found to be problematic in others. Check that this
+utility is producing conversions as expected.
+
+
+

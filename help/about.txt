@@ -1,0 +1,13 @@
+SPlaT v1.0 Beta
+
+Splat Spider code
+	written by Shafik Amin (shafik@u.arizona.edu)
+
+All other code
+	written by Gergely Kota (gergelyk@u.arizona.edu)
+	
+Developed under the supervision of 
+	Dr. Christian Collberg at the University of Arizona
+	Dr. Stephen Kobourov at the University of Arizona
+
+We recommend Java 1.4.2 or newer

@@ -1,0 +1,5 @@
+WebSearchOptionTab allows you to search a website (it is intended for use
+with various computer science departments) for any papers it finds.
+It then compares all of these files to each other. 
+
+To start, select a department from the dropdown list, or enter a website (when you select a department, its website will appear in the text box. Hit GO to proceed.

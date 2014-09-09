@@ -1,0 +1,5 @@
+DocumentComparisons are algorithms by which the similarity between two files is assessed. 
+Each one uses a fundamentally different set of rules to determine the 
+percentage of the 2nd file that is cheated from the 1st file. The user can 
+specify a tolerance (an int) that means something specific for each different
+DocumentComparison.()

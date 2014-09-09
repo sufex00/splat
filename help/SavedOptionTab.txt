@@ -1,0 +1,5 @@
+SavedOptionTab allows you to load a saved DocumentComparisonResult. Enter the name of the file the result was saved to in the top box, or use the Browse option on the right side of the window to select your file. Hit GO to load the selected file.
+
+Once a file is successfully loaded, another window (an HTMLFrame) will pop up showing the results that were stored in this file. You can now use this in exactly the same way as a freshly computed set of results. The file keeps the relevant data it was working on (including the contents of all the files), so it doesn't need those files to exist anymore. NOTE: Due to this feature, the size of this file is fairly large, frequently on the order of several megabytes or more.
+
+A file load will fail if an corrupt or meaningless file is specified to load from. If this is the case, an error message should appear in the log window.mpare doc1 and doc2 with tolerance 5

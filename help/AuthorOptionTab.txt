@@ -1,0 +1,10 @@
+(This module is still under development)
+
+AuthorOptionTab allows you to submit a paper and specify its authors
+and their websites. Splat will then search for papers on these sites
+(and for those authors), download them, and compare all the downloaded
+papers to the originally specified paper.
+
+Enter a local file at the top (or use the browse feature to find one), and sets of authors and their websites in the boxes below. Not all boxes need to be filled out. Hit Go to proceed. 
+
+In the event of an error, a message will be posted to the Log. :02:19 2003//

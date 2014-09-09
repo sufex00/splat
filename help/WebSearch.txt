@@ -1,0 +1,10 @@
+A WebSearch is used to find and download a set of files from the internet. There are a list of options that can be specified. 
+
+* Download Location is the directory to place downloaded files into. The directory is created if it does not yet exist. 
+* Maximum search depth. This is the maximum number of nested links the search will try.
+* Maximum number of files to download. The search will end when this many files have been downloaded.
+* Maximum time to run search for in seconds. The search will end if it has run for this much time. 
+
+All of these are set to initial default values. When starting an AbstractWebSearch, these values are used. Any of them can be changed by the user. If a field is left blank, an undocumented internal default is used. 
+
+Note: not all of these settings may work exactly in this version (for example, the number of files downloaded might not be exactly the entered amount). you for a file to load a comparison from
